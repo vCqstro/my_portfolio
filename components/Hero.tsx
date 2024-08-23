@@ -94,7 +94,6 @@ const Hero = () => {
         <div className="flex justify-end w-full">
           <Image src={vector_hero} alt="vector illustration" />
         </div>
-        {/* <GridBackgroundDemo /> */}
       </div>
     </div>
   );

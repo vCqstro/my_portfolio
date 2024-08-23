@@ -29,9 +29,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="">
+    <footer className="border-t border-muted-foreground">
       <section className="py-16 gap-10 flex flex-col lg:flex-row justify-between">
-        <div>
+        <div className="flex gap-5 flex-col">
           <ul className="font-semibold">
             Länkar
             <li className="flex flex-col gap-2 font-extralight py-3">
@@ -47,6 +47,16 @@ const Footer = () => {
               ))}
             </li>
           </ul>
+          <div className="text-sm">
+            <p className="">All illustrations by</p>
+            <Link
+              className="text-sm  text-primary underline"
+              href="https://www.freepik.com/"
+              target="_blank"
+            >
+              Freepik
+            </Link>
+          </div>
         </div>
         <div>
           <p className="text-sm lg:Text-lg">
