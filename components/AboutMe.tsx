@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 import profilePicture from "../public/images/about-me-vector.svg"; // Ersätt med din bilds sökväg
 
-interface AboutMeProps {
+type AboutMeProps = {
   name: string;
   title: string;
-  description: number;
-}
+  description: string;
+};
 
 const AboutMeProps = {
   name: "Victor Patriksson",

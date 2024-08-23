@@ -21,6 +21,11 @@ interface CarouselProps {
   initialScroll?: number;
 }
 
+type Technology = {
+  name: string;
+  icon?: React.ComponentType<any>;
+};
+
 type Card = {
   src: string;
   title: string;
