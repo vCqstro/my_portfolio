@@ -2,7 +2,6 @@
 import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
-
 import brainwave from "@/public/images/brainwave.png";
 import { Button } from "./ui/button";
 import Link from "next/link";
@@ -58,7 +57,7 @@ const BrainwaveContent = () => {
             className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
           >
             <Image
-              src="/images/brainwave.png"
+              src={brainwave}
               alt="Brainwave project"
               height="1000"
               width="1000"

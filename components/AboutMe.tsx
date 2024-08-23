@@ -26,12 +26,14 @@ function AboutMe() {
         <div className="flex flex-col-reverse lg:flex-row items-center w-full justify-between">
           <div className="flex flex-col gap-7 lg:gap-5 pb-10">
             <div className="flex flex-col gap-1">
-              <h3 className="tracking-widest text-primary uppercase">
+              <h3 className="tracking-widest text-primary uppercase text-sm lg">
                 {AboutMeProps.title}
               </h3>
               <h2 className="text-2xl font-semibold">{AboutMeProps.name}</h2>
             </div>
-            <p className="text-muted-foreground">{AboutMeProps.description}</p>
+            <p className="font-semibold text-muted-foreground">
+              {AboutMeProps.description}
+            </p>
           </div>
         </div>
       </div>
