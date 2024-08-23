@@ -108,11 +108,11 @@ const PortfolioContent = () => {
             className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
           >
             <Image
-              src="/public/images/portfolio-images/portfolio.png"
+              src="/images/portfolio-images/portfolio.png"
               alt="Picture of my portfolio website"
               height="1000"
               width="1000"
-              className="md:w-full md:h-full h-full w-full mx-auto object-contain"
+              className="h-full w-full mx-auto object-contain"
             />
           </div>
         );
