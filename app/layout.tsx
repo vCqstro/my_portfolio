@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="px-5 lg:container scroll-smooth dark">
       <body className={poppins.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark">
+        <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark">
           {children}
         </ThemeProvider>
       </body>

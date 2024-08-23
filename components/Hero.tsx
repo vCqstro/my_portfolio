@@ -7,6 +7,7 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 import vector_hero from "@/public/images/vector-hero.svg";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const words = `Hej, mitt namn är Victor. Här är min digitala portfolio.`;
 
@@ -34,7 +35,7 @@ const Hero = () => {
 
     try {
       // Fetch the CV file from the server
-      const response = await fetch("/images/CV/Victor Patriksson CV.pdf"); // Replace "/your-cv.pdf" with the actual path to your CV file
+      const response = await fetch("/CV/Victor Patriksson CV.pdf"); // Replace "/your-cv.pdf" with the actual path to your CV file
 
       if (!response.ok) {
         throw new Error("Failed to fetch CV file");
@@ -66,7 +67,7 @@ const Hero = () => {
     <div className="">
       <div>
         {/* Hidden download link */}
-        <a ref={downloadLinkRef} style={{ display: "none" }} />
+        <a ref={downloadLinkRef} className="hidden" />
       </div>
 
       <Spotlight />
@@ -79,7 +80,7 @@ const Hero = () => {
           </p>
           <div className="flex gap-5">
             <Button className="text-white" variant={"default"}>
-              Mina projekt
+              <Link href="#projekt">Mina projekt</Link>
             </Button>
             <Button
               variant={"secondary"}
