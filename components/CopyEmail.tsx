@@ -29,7 +29,7 @@ export default function CopyMail() {
           Vill du kontakta mig?
         </h2>
         <p className="text-muted-foreground max-w-prose lg:text-xl">
-          Tryck på knappen nere för att kopiera min mail.
+          Tryck på knappen nedan för att kopiera min mail.
         </p>
         <Button
           variant={"secondary"}
