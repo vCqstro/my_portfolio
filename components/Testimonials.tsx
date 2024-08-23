@@ -44,4 +44,12 @@ const testimonials: {
     id: "testimonial2", // Unique identifier for the second item
   },
   // ... other testimonials with unique IDs
+  {
+    quote:
+      "Fina, duktiga, ambitiösa Victor. Jag hade äran att få ha denna trevliga kille i mitt team på Webbhuset. 'Öga för design' har han verkligen! Mina varmaste rekommendationer till dig Victor, lyckos den arbetsgivaren som får en sån här lojal och driven medarbetare!",
+    name: "Rebecca Sandberg",
+    title: "Föredetta avdelningschef, Webbhuset",
+    src: "/images/rebecca_sandberg.png",
+    id: "testimonial3", // Unique identifier for the first item
+  },
 ];
