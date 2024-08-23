@@ -2,10 +2,9 @@
 import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
-import brainwave from "@/public/images/brainwave.png";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import { Github, GithubIcon } from "lucide-react";
+import { GithubIcon } from "lucide-react";
 
 export function Projects() {
   const cards = data.map((card, index) => (
