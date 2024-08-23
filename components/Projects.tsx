@@ -57,7 +57,7 @@ const BrainwaveContent = () => {
             className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
           >
             <Image
-              src={brainwave}
+              src="/images/brainwave.png"
               alt="Brainwave project"
               height="1000"
               width="1000"
