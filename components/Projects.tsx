@@ -108,7 +108,7 @@ const PortfolioContent = () => {
             className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
           >
             <Image
-              src={`/images/portfolio.png`}
+              src="/public/images/portfolio-images/portfolio.png"
               alt="Picture of my portfolio website"
               height="1000"
               width="1000"
@@ -178,7 +178,7 @@ const data = [
       { name: "Framer Motion" },
     ],
     title: "Brainwave",
-    src: "/images/brainwave.png",
+    src: "/images/portfolio-images/brainwave.png",
     content: <BrainwaveContent />,
   },
   {
@@ -190,7 +190,7 @@ const data = [
       { name: "Framer Motion" },
     ],
     title: "Portfolio",
-    src: "/images/portfolio.png",
+    src: "/images/portfolio-images/portfolio.png",
     content: <PortfolioContent />,
   },
   // {
