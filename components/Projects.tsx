@@ -33,6 +33,7 @@ const BrainwaveContent = () => {
           projektet har gett mig självförtroendet att ta på mig mer komplexa
           uppgifter och samt bredda mina kunskaper.
         </p>
+        <p className="text-base md:text-2xl font-sans max-w-3xl">OBS: Innehållet på denna sida är exempelinnehåll och har inget samband med verkligheten.</p>
         <div className="flex justify-between">
           <Link target="_blank" href="https://brainwave-nu-weld.vercel.app/">
             <Button size={"lg"} variant={"default"} className="text-white">
@@ -82,6 +83,7 @@ const PortfolioContent = () => {
           något. Det här projektet har gett mig självförtroendet att fortsätta
           utveckla mina färdigheter och ta mig an mer komplexa uppdrag.
         </p>
+        <p className="text-base md:text-2xl font-sans max-w-3xl">OBS: Innehållet på denna sida är exempelinnehåll och har inget samband med verkligheten.</p>
         <div className="flex justify-between">
           <Link
             target="_blank"
