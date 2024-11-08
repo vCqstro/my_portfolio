@@ -13,7 +13,7 @@ const AboutMeProps = {
   name: "Victor Patriksson",
   title: "Frontend utvecklare",
   description:
-    "Hej! Jag heter Victor och jag är en 22-årig frontend-utvecklare som älskar att koda och spela fotboll. Jag är född och uppvuxen i Stenungsund och har alltid varit nyfiken på hur saker fungerar i den digitala världen. När jag inte sitter framför datorn hittar du mig antagligen på en fotbollsplan eller så sitter jag och programmerar. Jag ser utmaningar som möjligheter och har en förmåga att se det bästa i varje situation.",
+    "Hej! Jag heter Victor, en 22-årig frontend-utvecklare från Stenungsund med en passion för kodning och fotboll. Min nyfikenhet på den digitala världen har drivit mig att utveckla mina programmeringsfärdigheter. Jag är en positiv och lösningsorienterad person som ser varje utmaning som en chans att lära mig något nytt.",
 };
 
 function AboutMe() {

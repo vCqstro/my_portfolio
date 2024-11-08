@@ -60,7 +60,7 @@ const BrainwaveContent = () => {
               alt="Brainwave project"
               height="1000"
               width="1000"
-              className="h-full w-full mx-auto object-contain"
+              className="h-full w-full mx-auto"
             />
           </div>
         );
